@@ -1,0 +1,55 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+ width:100vw;
+ color:#8d108d;
+}
+.col-pad{
+padding-left: 15px;
+padding-right: 15px;
+}
+.pos-link{
+  display:flex;
+  justify-content: space-around;
+}
+.styl-link{
+  color: #8d108d !important;;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: 600;
+}
+.styl-logo{
+  font-size: xx-large;
+  font-weight: 900;
+  color:#8d108d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-pos{
+  display:flex;
+  justify-content: space-around;
+   height:70px; 
+ 
+
+}
+
+.navbar-brand{
+  display:flex;
+  align-items: baseline;
+}
+.pos-star{
+  margin-left: 490px;
+}
+ @media (max-width:620px){
+  .nav-pos{
+   
+    height:250px;
+ 
+  
+  } 
+} 

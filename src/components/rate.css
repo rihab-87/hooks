@@ -1,0 +1,22 @@
+.star-box{
+    padding-top:16px ;
+    font-Size: 26px;
+   
+  }
+  .dv-star-rating{
+  display:flex!important;
+  flex-direction:row-reverse;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+   }
+@media (max-width:500px){
+  .star-box{
+    padding-top:0px ;
+  padding-bottom: 0px;
+  height: 30px;
+  font-Size: 20px;
+  }
+  .dv-star-rating{
+    height:30px;
+  }
+}
